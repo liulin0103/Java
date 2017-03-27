@@ -6,6 +6,7 @@ package pers.liulin.design_pattern.iterator;
 public interface Iterator {
 
     public abstract boolean hasNext();
+
     public abstract Object next();
     /**
      *  这里有必要说明以下next方法。

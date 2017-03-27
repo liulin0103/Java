@@ -13,16 +13,16 @@ public class BookShelfIterator implements Iterator {
     }
 
     public boolean hasNext() {
-        if (index < bookShelf.getLength()){
+        if (index < bookShelf.getLength()) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
 
     public Object next() {
         Book book = bookShelf.getBookAt(index);
-        index ++;
+        index++;
         return book;
     }
 }
